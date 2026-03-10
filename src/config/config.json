@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "DocKit",
+    "title": "VS",
     "logo": "/src/assets/logo-light.svg",
     "logo_darkmode": "/src/assets/logo-dark.svg",
     "logo_width": "127",
     "logo_height": "32",
-    "logo_text": "DocKit"
+    "logo_text": "VS"
   },
 
   "settings": {
@@ -25,7 +25,7 @@
     "enable": true,
     "label": "Get Started",
     "translations": {
-      "fr": "Erste Schritte"
+      "fr": "Commencer"
     },
     "link": "/getting-started/introduction/overview/"
   }

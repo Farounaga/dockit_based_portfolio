@@ -4,6 +4,26 @@
       "name": "Home",
       "url": "/"
     },
+        {
+      "name": "Presentation",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Parcours",
+          "url": "/presentation/parcours/"
+        },
+        {
+          "name": "Presentation",
+          "url": "/presentation/presentation/"
+        },
+        {
+          "name": "Réalisations",
+          "url": "/presentation/realisations/"
+        }
+      ]
+
+    },
     {
       "name": "Documentation",
       "url": "/getting-started/introduction/overview/"

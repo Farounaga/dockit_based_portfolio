@@ -124,3 +124,9 @@
 @import "./components.css";
 @import "./button.css";
 
+/* svg hello colour. */
+[data-theme="dark"] img[src*="hero-icon"] {
+  filter: invert(1);
+}
+
+
