@@ -1,69 +1,67 @@
 {
   "main": [
     {
-      "label": "Getting Started",
-      "translations": {
-        "fr": "Commencer"
-      },
+      "label": "Présentation",
       "items": [
         {
-          "label": "[seti:vite] Introduction",
-          "translations": {
-            "fr": "[seti:vite] Introduction"
-          },
-          "autogenerate": { "directory": "getting-started/introduction" }
+          "label": "[document] Présentation",
+          "slug": "presentation/presentation/introduction"
         },
         {
-          "label": "[setting] Global Settings",
-          "translations": {
-            "fr": "[setting] Paramètres globaux"
-          },
-          "autogenerate": { "directory": "getting-started/global-settings" }
+          "label": "[document] Présentation de la formation",
+          "slug": "presentation/presentation/bts-sio"
         },
         {
-          "label": "[seti:plan] Navigation",
-          "translations": {
-            "fr": "[seti:plan] Navigation"
-          },
-          "slug": "getting-started/navigation"
+          "label": "[document] Presentation de l'établissement",
+          "slug": "presentation/presentation/campus-ermitage"
+        },
+        {
+          "label": "[document] Presentation de l'entreprise",
+          "slug": "presentation/presentation/syadem"
         }
       ]
     },
     {
-      "label": "Content",
-      "translations": {
-        "fr": "Contenu"
-      },
+      "label": "Parcours & compétences",
       "items": [
         {
-          "label": "[document] Components and Block",
-          "translations": {
-            "fr": "[document] Composants et blocs"
-          },
-          "autogenerate": { "directory": "contents/components" }
+          "label": "[document] Parcours d’études",
+          "slug": "presentation/parcours/etudes"
         },
         {
-          "label": "[pencil] Editing Content",
-          "translations": {
-            "fr": "[pencil] Édition du contenu"
-          },
-          "autogenerate": { "directory": "contents/editing" }
+          "label": "[document] Parcours Professionnel",
+          "slug": "presentation/parcours/travail"
+        },
+        {
+          "label": "[setting] Compétences",
+          "slug": "presentation/parcours/competences"
+        },
+        {
+          "label": "[document] Certifications & Récompenses",
+          "slug": "presentation/parcours/certifications"
         }
       ]
     },
     {
-      "label": "Reference",
-      "translations": {
-        "fr": "Référence"
-      },
-      "autogenerate": { "directory": "reference" }
-    },
-    {
-      "label": "Configurations",
-      "translations": {
-        "fr": "Configurations"
-      },
-      "autogenerate": { "directory": "configurations" }
+      "label": "Réalisations",
+      "items": [
+        {
+          "label": "[document] Dossiers E5 & E6",
+          "slug": "presentation/realisations/e5-e6"
+        },
+        {
+          "label": "[pencil] Outil d'analyse de tickets",
+          "slug": "presentation/realisations/projet1"
+        },
+        {
+          "label": "[rocket] Projet 2",
+          "slug": "presentation/realisations/projet2"
+        },
+        {
+          "label": "[document] Exemples de composants",
+          "slug": "presentation/realisations/exemples-composants"
+        }
+      ]
     }
   ]
 }

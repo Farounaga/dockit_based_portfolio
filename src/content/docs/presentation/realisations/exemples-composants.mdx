@@ -1,0 +1,117 @@
+---
+title: Exemples de composants
+description: Référence unique avec les exemples de composants utiles pour écrire rapidement de nouvelles pages.
+---
+
+import { Card, CardGrid, Tabs, TabItem, Steps, LinkCard, LinkButton } from '@astrojs/starlight/components';
+import Accordion from '~/components/Accordion.astro';
+import AccordionContainer from '~/components/AccordionContainer.astro';
+import Grid from '~/components/user-components/Grid.astro';
+import NewCard from '~/components/user-components/NewCard.astro';
+import ListCard from '~/components/user-components/ListCard.astro';
+import Button from '~/components/user-components/Button.astro';
+
+> Cette page sert de **boîte à outils**: tu peux copier/coller les blocs ci-dessous pour créer rapidement des pages de portfolio.
+
+## 1) Onglets (Tabs)
+
+<Tabs>
+  <TabItem label="Vue recruteur" icon="document">
+    Résumé court, stack, réalisations majeures.
+  </TabItem>
+  <TabItem label="Vue technique" icon="setting">
+    Détails d’architecture, outils, limites et améliorations.
+  </TabItem>
+</Tabs>
+
+## 2) Cartes Starlight
+
+<CardGrid>
+  <Card title="Projet principal" icon="rocket">
+    Présente ton projet phare avec résultats métier.
+  </Card>
+  <Card title="Compétences" icon="setting">
+    Relie les compétences aux cas concrets.
+  </Card>
+</CardGrid>
+
+## 3) Étapes (timeline / process)
+
+<Steps>
+1. Contexte du projet
+2. Besoin métier
+3. Solution technique
+4. Résultats et métriques
+</Steps>
+
+## 4) Tableau (Markdown)
+
+| Technologie | Niveau | Exemple d'utilisation |
+| --- | --- | --- |
+| Python | Intermédiaire | Scripts d’analyse de tickets |
+| SQL | Intermédiaire | Requêtes de reporting |
+| Astro | Débutant+ | Site portfolio/documentation |
+
+## 5) Intégration vidéo (YouTube)
+
+<iframe
+  width="100%"
+  height="420"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="Demo vidéo"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
+## 6) Liens d’action
+
+<LinkButton href="/presentation/realisations/projet1" variant="primary">Voir mon projet principal</LinkButton>
+
+<br />
+
+<LinkCard title="Aller vers les compétences" href="/presentation/parcours/competences">
+  Navigation rapide pour relier projets et stack.
+</LinkCard>
+
+## 7) Composants personnalisés DocKit
+
+<Grid columns={2}>
+  <NewCard title="Card personnalisée" icon="rocket">
+    Utilise cette carte pour présenter une réalisation.
+  </NewCard>
+  <NewCard title="Card secondaire" icon="setting">
+    Idéal pour les missions ou objectifs.
+  </NewCard>
+</Grid>
+
+<ListCard title="Checklist de page projet" number="6">
+- Contexte
+- Objectifs
+- Stack
+- Captures
+- Difficultés
+- Résultats
+</ListCard>
+
+<Button label="Télécharger le CV" link="#" variant="primary" />
+
+## 8) Accordéon FAQ
+
+<AccordionContainer
+  tabList={[
+    {
+      type: 'general',
+      title: 'FAQ générale',
+      subtitle: 'Questions fréquentes',
+      icon: 'help',
+    },
+  ]}
+>
+  <Accordion
+    question="Peut-on réutiliser ces blocs ?"
+    answer="Oui, cette page est prévue comme référence de copier/coller pour toutes tes futures pages."
+    type="general"
+  />
+</AccordionContainer>

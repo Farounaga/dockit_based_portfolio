@@ -2,11 +2,7 @@
 title: Presentation de l'établissement
 ---
 
-import Heading from '@theme/Heading';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Link from '@docusaurus/Link';
-import { Icon } from '@iconify/react';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 :::info
 Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un établissement privé qui propose plusieurs BTS et formations post-bac en alternance (SIO, SAM, PI, CJN, bachelors…).
@@ -19,8 +15,7 @@ Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un 
   <div className="col col--6">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-        <Icon icon="mdi:school" width={20} />
-        <Heading as="h3">Établissement</Heading>
+        <h3>Établissement</h3>
       </div>
       <div className="card__body">
         Le Campus Ermitage rassemble plusieurs structures (Lycée, SUP', centre de formation)
@@ -33,17 +28,16 @@ Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un 
   <div className="col col--6">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-        <Icon icon="mdi:map-marker" width={20} />
-        <Heading as="h3">Localisation & contact</Heading>
+        <h3>Localisation & contact</h3>
       </div>
       <div className="card__body">
         304 avenue Joseph Amouroux, 47000 Agen  
         Tél. : 05 53 66 08 71 – Mail : agen@cneap.fr  
         <br />
         Site post-bac :{' '}
-        <Link to="https://postbac-campusermitage.com/" target="_blank">
+        <a href="https://postbac-campusermitage.com/" target="_blank">
           postbac-campusermitage.com
-        </Link>
+        </a>
       </div>
     </div>
   </div>
@@ -59,8 +53,7 @@ Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un 
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:laptop" width={20} />
-        <Heading as="h3">Informatique</Heading>
+        <h3>Informatique</h3>
       </div>
       <div className="card__body">
         Le BTS SIO fait partie de l’offre numérique du campus et prépare aux métiers
@@ -72,8 +65,7 @@ Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un 
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:sync" width={20} />
-        <Heading as="h3">Alternance</Heading>
+        <h3>Alternance</h3>
       </div>
       <div className="card__body">
         Formation en **alternance** sur 2 ans&nbsp;:  
@@ -86,8 +78,7 @@ Je suis la formation **BTS SIO option SLAM** au **Campus Ermitage** à Agen, un 
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:account-group" width={20} />
-        <Heading as="h3">Promotion</Heading>
+        <h3>Promotion</h3>
       </div>
       <div className="card__body">
         Petits effectifs, suivi pédagogique proche, accompagnement,
