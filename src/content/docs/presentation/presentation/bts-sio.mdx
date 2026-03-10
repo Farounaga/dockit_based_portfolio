@@ -2,10 +2,7 @@
 title: Présentation de la formation
 ---
 
-import Heading from '@theme/Heading';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import { Icon } from '@iconify/react';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 :::info
 **BTS SIO – SLAM** est une formation professionnalisante en **développement**,  
@@ -105,8 +102,7 @@ Compétences centralisées autour de **dev**, **modélisation**, **sécurité**,
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:account-search" width="20" />
-        <Heading as="h3">Analyse métier</Heading>
+        <h3>Analyse métier</h3>
       </div>
       <div className="card__body">
         Reformuler un besoin, rédiger des user stories, modéliser un SI.
@@ -117,8 +113,7 @@ Compétences centralisées autour de **dev**, **modélisation**, **sécurité**,
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:database-cog" width="20" />
-        <Heading as="h3">Conception & BDD</Heading>
+        <h3>Conception & BDD</h3>
       </div>
       <div className="card__body">
         Modèles UML, SQL avancé, cohérence et performance d’une base.
@@ -129,8 +124,7 @@ Compétences centralisées autour de **dev**, **modélisation**, **sécurité**,
   <div className="col col--4">
     <div className="card">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:shield-check" width="20" />
-        <Heading as="h3">Qualité & Sécurité</Heading>
+        <h3>Qualité & Sécurité</h3>
       </div>
       <div className="card__body">
         Code propre, tests, revue de code, sécurité élémentaire.

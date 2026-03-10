@@ -2,11 +2,7 @@
 title: Parcours d’études
 ---
 
-import Heading from '@theme/Heading';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import { Icon } from '@iconify/react';
-import Link from '@docusaurus/Link';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 :::info
 Cette page présente mon **parcours éducatif**, du **Baccalauréat scientifique**  
@@ -22,8 +18,7 @@ Campus Ermitage, Agen – France
   <div className="col col--7">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-        <Icon icon="mdi:laptop" width={20} />
-        <Heading as="h3">Formation</Heading>
+        <h3>Formation</h3>
       </div>
       <div className="card__body">
         Le <strong>BTS SIO (Services Informatiques aux Organisations)</strong> forme à la création,
@@ -37,8 +32,7 @@ Campus Ermitage, Agen – France
   <div className="col col--5">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-        <Icon icon="mdi:map-marker" width={20} />
-        <Heading as="h3">Lieu</Heading>
+        <h3>Lieu</h3>
       </div>
       <div className="card__body">
         Campus Ermitage  
@@ -85,8 +79,7 @@ Lycée Commercial Saint Pierre, Brunoy – France
   <div className="col col--6">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:earth" width={20} />
-        <Heading as="h3">Compétences acquises</Heading>
+        <h3>Compétences acquises</h3>
       </div>
       <div className="card__body">
         - Anglais (niveau avancé)  
@@ -99,8 +92,7 @@ Lycée Commercial Saint Pierre, Brunoy – France
   <div className="col col--6">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:briefcase" width={20} />
-        <Heading as="h3">Objectifs de la formation</Heading>
+        <h3>Objectifs de la formation</h3>
       </div>
       <div className="card__body">
         Comprendre les enjeux du commerce international,  
@@ -122,8 +114,7 @@ Lycée Saint François de Sales, Évreux – France
   <div className="col col--12">
     <div className="card shadow--md">
       <div className="card__header" style={{display:'flex',gap:'0.5rem'}}>
-        <Icon icon="mdi:school" width={20} />
-        <Heading as="h3">Formation scientifique</Heading>
+        <h3>Formation scientifique</h3>
       </div>
       <div className="card__body">
         Approche scientifique, rigueur, logique, biologie, SVT et méthodes expérimentales.  
