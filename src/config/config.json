@@ -7,26 +7,23 @@
     "logo_height": "32",
     "logo_text": "VS"
   },
-
   "settings": {
     "search": true,
     "theme_switcher": true
   },
-
   "params": {
     "footer_contact": {
       "enable": true,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a> Copyright &copy; 2025."
+    "copyright": "© 2026 Vladimir Spirine. Tous droits réservés."
   },
-
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Mon Portfolio",
     "translations": {
-      "fr": "Commencer"
+      "fr": "Mon Portfolio"
     },
-    "link": "/getting-started/introduction/overview/"
+    "link": "/"
   }
 }
