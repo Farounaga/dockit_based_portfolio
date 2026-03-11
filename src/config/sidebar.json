@@ -3,64 +3,33 @@
     {
       "label": "Présentation",
       "items": [
-        {
-          "label": "[document] Présentation",
-          "slug": "presentation/presentation/introduction"
-        },
-        {
-          "label": "[document] Présentation de la formation",
-          "slug": "presentation/presentation/bts-sio"
-        },
-        {
-          "label": "[document] Presentation de l'établissement",
-          "slug": "presentation/presentation/campus-ermitage"
-        },
-        {
-          "label": "[document] Presentation de l'entreprise",
-          "slug": "presentation/presentation/syadem"
-        }
+        { "label": "[document] Présentation", "slug": "presentation/presentation/introduction" },
+        { "label": "[document] Présentation de la formation", "slug": "presentation/presentation/bts-sio" },
+        { "label": "[document] Presentation de l'établissement", "slug": "presentation/presentation/campus-ermitage" },
+        { "label": "[document] Presentation de l'entreprise", "slug": "presentation/presentation/syadem" }
       ]
     },
     {
       "label": "Parcours & compétences",
       "items": [
-        {
-          "label": "[document] Parcours d’études",
-          "slug": "presentation/parcours/etudes"
-        },
-        {
-          "label": "[document] Parcours Professionnel",
-          "slug": "presentation/parcours/travail"
-        },
-        {
-          "label": "[setting] Compétences",
-          "slug": "presentation/parcours/competences"
-        },
-        {
-          "label": "[document] Certifications & Récompenses",
-          "slug": "presentation/parcours/certifications"
-        }
+        { "label": "[document] Parcours d’études", "slug": "presentation/parcours/etudes" },
+        { "label": "[document] Parcours Professionnel", "slug": "presentation/parcours/travail" },
+        { "label": "[setting] Compétences", "slug": "presentation/parcours/competences" },
+        { "label": "[document] Certifications & Récompenses", "slug": "presentation/parcours/certifications" }
       ]
     },
     {
       "label": "Réalisations",
       "items": [
-        {
-          "label": "[document] Dossiers E5 & E6",
-          "slug": "presentation/realisations/e5-e6"
-        },
-        {
-          "label": "[pencil] Outil d'analyse de tickets",
-          "slug": "presentation/realisations/projet1"
-        },
-        {
-          "label": "[rocket] Projet 2",
-          "slug": "presentation/realisations/projet2"
-        },
-        {
-          "label": "[document] Exemples de composants",
-          "slug": "presentation/realisations/exemples-composants"
-        }
+        { "label": "[document] Dossiers E5 & E6", "slug": "presentation/realisations/e5-e6" },
+        { "label": "[pencil] Outil d'analyse de tickets", "slug": "presentation/realisations/projet1" },
+        { "label": "[rocket] Projet 2", "slug": "presentation/realisations/projet2" }
+      ]
+    },
+    {
+      "label": "Ressources",
+      "items": [
+        { "label": "[document] Exemples de composants", "slug": "presentation/realisations/exemples-composants" }
       ]
     }
   ]
